@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Urban Farms | Fresh Vegetables & Fruits Pune</title>
+
+<meta name="description"
+content="Urban Farms Pune supplies premium quality farm fresh vegetables and fruits directly to hotels, restaurants and institutions across Pune at competitive rates.">
+
+<style>
+
+:root{
+    --dark-green:#0B6B2D;
+    --light-green:#6DBE45;
+    --yellow:#E5C93A;
+    --bg:#F5F5EE;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:var(--bg);
+    color:#333;
+    line-height:1.6;
+}
+
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+}
+
+header{
+    background:linear-gradient(135deg,var(--dark-green),var(--light-green));
+    color:white;
+    text-align:center;
+    padding:80px 20px;
+}
+
+.logo{
+    font-size:4rem;
+    font-weight:bold;
+}
+
+.logo span{
+    color:#dfffcc;
+}
+
+.tagline{
+    font-size:1.3rem;
+    margin-top:10px;
+}
+
+.market{
+    margin-top:15px;
+    font-size:1.1rem;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:25px;
+    background:white;
+    color:var(--dark-green);
+    padding:12px 25px;
+    border-radius:30px;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+section{
+    padding:70px 20px;
+}
+
+h2{
+    text-align:center;
+    margin-bottom:30px;
+    color:var(--dark-green);
+}
+
+.about p{
+    max-width:850px;
+    margin:auto;
+    text-align:center;
+    font-size:1.05rem;
+}
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+    margin-top:35px;
+}
+
+.card{
+    background:white;
+    padding:25px;
+    border-radius:10px;
+    box-shadow:0 3px 12px rgba(0,0,0,.08);
+}
+
+.card h3{
+    color:var(--dark-green);
+    margin-bottom:10px;
+}
+
+.contact{
+    background:var(--dark-green);
+    color:white;
+    text-align:center;
+}
+
+.contact a{
+    color:#fff;
+    text-decoration:none;
+}
+
+.whatsapp{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:15px;
+    margin-top:25px;
+}
+
+.whatsapp a{
+    background:#25D366;
+    color:white;
+    padding:12px 20px;
+    border-radius:30px;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+footer{
+    text-align:center;
+    padding:20px;
+    background:#083f1b;
+    color:white;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+
+<h1 class="logo">Urban<span>Farms</span></h1>
+
+<p class="tagline">Fresh Vegetables & Fruits Since 1975</p>
+
+<p class="market">
+Market Yard, Pune - 411037
+</p>
+
+<a href="#contact" class="btn">
+Contact Us
+</a>
+
+</header>
+
+<section class="about">
+<div class="container">
+
+<h2>About Us</h2>
+
+<p>
+Urban Farms is a trusted supplier of farm fresh vegetables and fruits
+operating from Market Yard, Pune. Since 1975, we have been committed to
+providing the best quality produce at competitive prices with reliable
+customer service. We source directly from farms and ensure timely delivery
+to hotels, restaurants, caterers, corporate kitchens, hostels and large
+institutions across Pune.
+</p>
+
+</div>
+</section>
+
+<section>
+<div class="container">
+
+<h2>Products</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>Fresh Vegetables</h3>
+<p>
+Leafy vegetables, root vegetables, seasonal vegetables and daily-use kitchen produce.
+</p>
+</div>
+
+<div class="card">
+<h3>Fresh Fruits</h3>
+<p>
+Premium seasonal fruits sourced directly from trusted farms and growers.
+</p>
+</div>
+
+<div class="card">
+<h3>Bulk Supply</h3>
+<p>
+Consistent supply for hotels, restaurants, canteens, caterers and institutions.
+</p>
+</div>
+
+</div>
+
+</div>
+</section>
+
+<section>
+<div class="container">
+
+<h2>Services</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>Direct Farm Procurement</h3>
+<p>
+Fresh produce sourced directly from farms for better quality and pricing.
+</p>
+</div>
+
+<div class="card">
+<h3>Reliable Delivery</h3>
+<p>
+Daily and scheduled delivery across Pune for commercial customers.
+</p>
+</div>
+
+<div class="card">
+<h3>Competitive Rates</h3>
+<p>
+Best market pricing with quality assurance and dependable service.
+</p>
+</div>
+
+</div>
+
+</div>
+</section>
+
+<section id="contact" class="contact">
+
+<div class="container">
+
+<h2 style="color:white;">Contact Information</h2>
+
+<p><strong>Urban Farms</strong></p>
+
+<p>Market Yard, Pune - 411037</p>
+
+<p>Website: www.theurbanfarms.in</p>
+
+<br>
+
+<p>
+Phone:
+<a href="tel:+917666429177">7666429177</a>
+</p>
+
+<p>
+Phone:
+<a href="tel:+918669410138">8669410138</a>
+</p>
+
+<div class="whatsapp">
+
+<a href="https://wa.me/917666429177" target="_blank">
+WhatsApp 7666429177
+</a>
+
+<a href="https://wa.me/918669410138" target="_blank">
+WhatsApp 8669410138
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+<footer>
+© 2026 Urban Farms | Pune
+</footer>
+
+</body>
+</html>
